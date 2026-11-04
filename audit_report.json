@@ -1,0 +1,47 @@
+{
+  "audit_timestamp": "2026-11-04T17:54:41.269501Z",
+  "total_records_analyzed": 6,
+  "total_violations_flagged": 4,
+  "violations": [
+    {
+      "event_id": "EVT-1002",
+      "timestamp": "2026-10-28T23:15:08Z",
+      "user_id": "billing_clerk_04",
+      "user_role": "Billing Specialist",
+      "severity": "HIGH",
+      "violation_type": "After-Hours Non-Clinical Download",
+      "details": "Role 'Billing Specialist' performed download action 'DOWNLOAD_ATTACHMENT' at 23:15:08 UTC outside approved business window.",
+      "compliance_impact": "HIPAA 45 CFR \u00a7 164.312(a)(1) (Access Controls) | Minimum Necessary Standard"
+    },
+    {
+      "event_id": "EVT-1004",
+      "timestamp": "2026-10-29T16:45:12Z",
+      "user_id": "external_vendor_telemetry",
+      "user_role": "Vendor Support",
+      "severity": "CRITICAL",
+      "violation_type": "Unencrypted ePHI Transfer",
+      "details": "Data transfer initiated using cleartext protocol (HTTP). Network payload exposed.",
+      "compliance_impact": "HIPAA 45 CFR \u00a7 164.312(e)(1) | PIPEDA Safeguards (Principle 7)"
+    },
+    {
+      "event_id": "EVT-1005",
+      "timestamp": "2026-10-30T02:40:19Z",
+      "user_id": "research_fellow_09",
+      "user_role": "Clinical Researcher",
+      "severity": "HIGH",
+      "violation_type": "After-Hours Non-Clinical Download",
+      "details": "Role 'Clinical Researcher' performed download action 'BULK_EXPORT' at 02:40:19 UTC outside approved business window.",
+      "compliance_impact": "HIPAA 45 CFR \u00a7 164.312(a)(1) (Access Controls) | Minimum Necessary Standard"
+    },
+    {
+      "event_id": "EVT-1005",
+      "timestamp": "2026-10-30T02:40:19Z",
+      "user_id": "research_fellow_09",
+      "user_role": "Clinical Researcher",
+      "severity": "HIGH",
+      "violation_type": "Bulk Data Export Threshold Exceeded",
+      "details": "User extracted 482 patient records in a single query (Baseline Limit: 50).",
+      "compliance_impact": "HIPAA 45 CFR \u00a7 164.308(a)(1)(ii)(D) (System Activity Review)"
+    }
+  ]
+}

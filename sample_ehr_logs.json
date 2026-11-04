@@ -1,0 +1,80 @@
+[
+  {
+    "event_id": "EVT-1001",
+    "timestamp": "2026-10-28T10:14:22Z",
+    "user_id": "dr_chen_92",
+    "user_role": "Physician",
+    "department": "Oncology",
+    "action": "VIEW_RECORD",
+    "record_count": 1,
+    "source_ip": "10.10.30.45",
+    "destination_ip": "10.10.20.15",
+    "protocol": "HTTPS",
+    "is_encrypted": true
+  },
+  {
+    "event_id": "EVT-1002",
+    "timestamp": "2026-10-28T23:15:08Z",
+    "user_id": "billing_clerk_04",
+    "user_role": "Billing Specialist",
+    "department": "Finance",
+    "action": "DOWNLOAD_ATTACHMENT",
+    "record_count": 8,
+    "source_ip": "192.168.1.104",
+    "destination_ip": "10.10.20.15",
+    "protocol": "HTTPS",
+    "is_encrypted": true
+  },
+  {
+    "event_id": "EVT-1003",
+    "timestamp": "2026-10-29T14:30:00Z",
+    "user_id": "nurse_sarah_11",
+    "user_role": "Nurse Practitioner",
+    "department": "Intensive Care",
+    "action": "UPDATE_MEDICATION",
+    "record_count": 1,
+    "source_ip": "10.10.30.12",
+    "destination_ip": "10.10.20.15",
+    "protocol": "HTTPS",
+    "is_encrypted": true
+  },
+  {
+    "event_id": "EVT-1004",
+    "timestamp": "2026-10-29T16:45:12Z",
+    "user_id": "external_vendor_telemetry",
+    "user_role": "Vendor Support",
+    "department": "IT External",
+    "action": "EXTRACT_LOGS",
+    "record_count": 14,
+    "source_ip": "198.51.100.22",
+    "destination_ip": "10.10.20.15",
+    "protocol": "HTTP",
+    "is_encrypted": false
+  },
+  {
+    "event_id": "EVT-1005",
+    "timestamp": "2026-10-30T02:40:19Z",
+    "user_id": "research_fellow_09",
+    "user_role": "Clinical Researcher",
+    "department": "Pathology",
+    "action": "BULK_EXPORT",
+    "record_count": 482,
+    "source_ip": "10.10.30.88",
+    "destination_ip": "10.10.20.15",
+    "protocol": "HTTPS",
+    "is_encrypted": true
+  },
+  {
+    "event_id": "EVT-1006",
+    "timestamp": "2026-10-30T11:05:51Z",
+    "user_id": "reception_desk_01",
+    "user_role": "Front Desk Receptionist",
+    "department": "Administration",
+    "action": "QUERY_PATIENT_DEMOGRAPHICS",
+    "record_count": 1,
+    "source_ip": "10.10.30.5",
+    "destination_ip": "10.10.20.15",
+    "protocol": "HTTPS",
+    "is_encrypted": true
+  }
+]
