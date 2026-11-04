@@ -4,7 +4,7 @@ An automated security audit and compliance verification tool written in Python. 
 
 ---
 
-## 🔒 Automated Detection Heuristics
+## Automated Detection Heuristics
 
 1. **After-Hours Non-Clinical Access:** Flags bulk downloads or records access initiated outside approved operational hours (07:00–19:00) by non-clinical accounts (HIPAA Minimum Necessary standard).
 2. **Cleartext Transmission Violations:** Detects unencrypted transfer protocols (HTTP, unencrypted FTP) transmitting protected medical identifiers in violation of HIPAA § 164.312(e)(1).
@@ -12,7 +12,7 @@ An automated security audit and compliance verification tool written in Python. 
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 Requirements: Python 3.8+ (No third-party packages required).
 
